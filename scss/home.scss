@@ -3,23 +3,63 @@ html{
 }
 body{
     width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 .main{
-    width: 100%;
-    margin-inline: 15%;
+    width: 80%;
+    margin-inline: 20%;
     display: flex;
     flex-direction: column;
+    position: relative;
 
 }
+.section__header{
+    font-family: Arial, Helvetica, sans-serif;
+}
 img{
-    width: 70%;
+    width: 80%;
     height: 500px;
 }
 .section__content{
     width: 70%;
+    font-size: 14px;
     display: flex;
     flex-direction: row;
-    gap: 80px;
-  
+    justify-content: space-between;
+}
+.section__content-child{
+    width: 200px;
+    color: gray;
+}
+.main__location{
+    width: 80%;
+}
+.main__location img{
+    width: 80%;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #343A40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer__section1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.main_location{
+    position: relative;
+    bottom: -30px;
 
 }
