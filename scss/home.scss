@@ -6,6 +6,35 @@ body{
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
+.header {
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F4;
+   padding-left: 60px;
+    img {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+}
+
+header .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+    margin-left: 50px;
+    a {
+        margin-inline: 10px;
+        color:#343A40;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
 .main{
     width: 80%;
     margin-inline: 20%;
@@ -61,5 +90,16 @@ a{
 .main_location{
     position: relative;
     bottom: -30px;
+
+}
+@media (max-width: 600px){
+    .header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .header .nav-bar{
+        margin-left: -130px;
+    }
 
 }
