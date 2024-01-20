@@ -106,6 +106,12 @@ header .nav-bar {
                 object-fit: contain;
                 height: 70%;
                 width: 70%;
+                filter: grayscale(50%);
+
+                &:hover {
+                    filter: grayscale(0%);
+                    transform: scale(1.1);
+                }
             }
             p {
                 font-size: 2rem;
