@@ -1,10 +1,4 @@
-html{
-    box-sizing: border-box;
-}
-body{
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .header {
     display: flex;
     margin: 0;
@@ -44,10 +38,12 @@ main{
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
-    width:400px;
-    height: 400px;
-}
+
+// using the same reference/class name in 2 pages => create problems when sync
+// img{
+//     width:400px;
+//     height: 400px;
+// }
 .main-content{
 
     display: flex;

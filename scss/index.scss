@@ -1,6 +1,3 @@
-// style header
-@import 'header.scss';
-
 body {
     margin: 0;
     padding: 0;
@@ -8,12 +5,14 @@ body {
     font-family: ‘Inconsolata’, monospace;
 }
 
-<<<<<<< HEAD
-@import '/scss/home.scss';
-=======
+// Home page stylesheet
 @import 'home.scss';
->>>>>>> main
 
-
-// Style for About Page
+// Our Story page stylesheet
 @import 'about.scss';
+
+// Coffee page stylesheet
+@import 'coffee.scss';
+
+// Our Story page stylesheet
+@import 'menu.scss';
