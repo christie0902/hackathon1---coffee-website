@@ -55,17 +55,17 @@ header .nav-bar {
         object-fit: contain;
     }
     & .about-us__decor_left {
-        right: 50vw;
+        right: 70vw;
         position: absolute;
         top: 30vh;
         opacity: 0.5;
     }
     & .about-us__decor_right {
         position: absolute;
-        top: 120vh;
+        top: 100vh;
         opacity: 1;
         left: 50vw;
-        width: 50vw;
+        width: 40vw;
         overflow: hidden;
     }
     & .about-us__text {
@@ -102,7 +102,7 @@ header .nav-bar {
             align-items: center;
             max-width: 50vw;
 
-            img {
+            &_img {
                 object-fit: contain;
                 height: 70%;
                 width: 70%;
